@@ -1,0 +1,50 @@
+body
+{
+	font-family: "Helvetica Neue";	
+	background-color: #DEDEDE;
+	margin-left:100px;
+	margin-right:100px;
+}
+
+#lateral_menu
+{
+	position:fixed;
+	top:0;
+	right:0;
+	text-decoration:none;
+	background-color:black;
+	color:white;
+	list-style-type: none;
+	text-align:center;
+	width:100px;
+}
+
+#lateral_menu ul{
+	border:1px solid #ddd;
+}
+
+#img-cw{
+	width:50%;
+	height:50%;
+	border: 1px #000 solid;
+}
+
+#img-map{
+	width:55%;
+	height:55%;
+	border: 1px #000 solid;
+}
+
+#sumary{
+	width:300px;
+	background-color:white;
+	border:1px solid #777;
+}
+
+h2{
+	margin-bottom:0px;
+}
+
+h1{
+	margin-bottom:0px;
+}

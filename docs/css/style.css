@@ -2,8 +2,8 @@ body
 {
 	font-family: "Helvetica Neue";	
 	background-color: #DEDEDE;
-	margin-left:100px;
-	margin-right:100px;
+	margin-left:150px;
+	margin-right:150px;
 }
 
 #lateral_menu
@@ -36,7 +36,7 @@ body
 }
 
 #sumary{
-	width:300px;
+	width:200px;
 	background-color:white;
 	border:1px solid #777;
 }

@@ -1,9 +1,14 @@
-body
-{
-	font-family: "Helvetica Neue";	
+body{
 	background-color: #DEDEDE;
-	margin-left:150px;
-	margin-right:150px;
+	padding:0;
+	margin:0;
+}
+
+#container
+{
+	font-family: "Arial Narrow";	
+	margin-left:200px;
+	margin-right:200px;
 }
 
 #lateral_menu
@@ -19,19 +24,22 @@ body
 	width:100px;
 }
 
-#lateral_menu ul{
+#lateral_menu ul
+{
 	border:1px solid #ddd;
 }
 
-#img-cw{
-	width:50%;
-	height:50%;
+#img-cw
+{
+	width:500px;
+	height:300px;
 	border: 1px #000 solid;
 }
 
-#img-map{
-	width:55%;
-	height:55%;
+#img-map
+{
+	width:600px;
+	height:400px;
 	border: 1px #000 solid;
 }
 
@@ -47,4 +55,27 @@ h2{
 
 h1{
 	margin-bottom:0px;
+}
+
+#topmenu{
+	width:100%;
+	background-color:#3951c6;
+	height:30px;
+	margin:0;
+	padding:0;
+}
+
+#bottommenu{
+	width:100%;
+	background-color:#3951c6;
+	height:70px;
+	margin-top:40px;
+	padding:0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
